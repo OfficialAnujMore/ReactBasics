@@ -8,13 +8,19 @@ import Counter from "./components/Counter.js";
 import FunctionClick from "./components/FunctionClick.js";
 import ClassClick from "./components/ClassClick.js";
 import EventBind from "./components/EventBind.js";
+
+import DataFetchingUseState from "./components/DataFetchingUseState.js";
+import DataFetchingUseReducer from "./components/DataFetchingUseReducer.js";
 function App() {
   return (
     <div className="App">
 
 
+{/* <DataFetchingUseState/> */}
+<DataFetchingUseReducer/>
 
-<EventBind/>
+
+{/* <EventBind/> */}
 
       {/* <Message /> */}
 
